@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Rock-Paper-Scissor</title>
+</head>
+<body>
+	<div>
+	<p style="text-align:center;">Please select any one option:</p>
+	<form style="text-align: center;" name="form1" onclick="func()">
+		<input type="radio" name="select" value="Stone">
+		<label >Stone</label>
+		<input type="radio" name="select" value="Paper">
+		<label >Paper</label>
+		<input type="radio" name="select" value="Scissor">
+		<label >Scissor</label>
+	</form>
+	</div>
+	<h1 style="text-align:center;">Scores</h1>
+	<div style="width: 100%;">
+	<div style="display: inline-block;margin-left: 29%; margin-right: 11%; position: relative;width: 200px;">
+		<p style="text-align:center" id="computer">Computer</p>
+		<p style="text-align:center;font-size: 30px;font-weight: bold;" id="score_c">0</p>
+	</div>
+	<div style="display: inline-block;margin: 10px;position: relative;width: 200px;">
+		<p style="text-align:center;" id="human">You</p>
+		<p style="text-align:center;font-size: 30px;font-weight: bold;" id="score_h">0</p>
+	</div>
+	<p id="score_h"></p>
+	</div>
+	<div style="text-align:center;">
+		<p id="comment"></p>
+		<button id="reset" onclick="window.location.reload()" style="visibility: hidden;">Replay</button>
+	</div>
+<script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
