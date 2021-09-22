@@ -66,11 +66,11 @@ function game(){
 	score_h.innerHTML=y;
 	let flag=0;
 	if(x===5 && y<5){
-		comment.innerHTML="Congrats! You Won";
+		comment.innerHTML="Sorry! you loose";
 		flag=1;
 	}
 	else if(x<5 && y===5){
-		comment.innerHTML="Sorry! you loose";
+		comment.innerHTML="Congrats! you won";
 		flag=1;
 	}
 	else if(x===5 && y===5){
